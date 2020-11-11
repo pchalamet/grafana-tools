@@ -20,7 +20,7 @@ function runAction
 # $3: api-token
 case "$1" in
     backup) ;;
-    restore) ;;
+    import) ;;
     *) usage
 esac
 if [ -z "$2" ]; then usage; fi
